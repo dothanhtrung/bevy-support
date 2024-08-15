@@ -1,0 +1,20 @@
+[package]
+name = "bevy_support"
+version = "0.0.1"
+authors = ["Trung Do <dothanhtrung@pm.me>"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://gitlab.com/kimtinh/bevy-support.git"
+keywords = ["bevy"]
+description = ""
+exclude = ["assets", "examples", "tests", ".cargo"]
+categories = ["game-development"]
+
+[dependencies]
+bevy = { version = "0.14", features = [], default-features = false }
+
+[dev-dependencies]
+bevy = { version = "0.14", features = [
+    "dynamic_linking",
+], default-features = false }
+
