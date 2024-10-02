@@ -3,7 +3,7 @@
 //! ### Plugin
 //! doc goes here
 
-use bevy::{prelude::{Button, Changed, Component, Query, Transform, Visibility, With}, ui::Interaction};
+use bevy::prelude::{Component, Query, Visibility, With};
 
 pub mod ui;
 
