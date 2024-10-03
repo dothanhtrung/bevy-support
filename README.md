@@ -1,14 +1,12 @@
-your_plugin
-===========
+bevy_support_misc
+=================
 
-[![crates.io](https://img.shields.io/crates/v/your_plugin)](https://crates.io/crates/your_plugin)
-[![docs.rs](https://docs.rs/your_plugin/badge.svg)](https://docs.rs/your_plugin)
-[![dependency status](https://deps.rs/repo/gitlab/your_account/your_repo/status.svg)](https://deps.rs/repo/gitlab/kimtinh/your_repo)
-[![pipeline status](https://gitlab.com/kimtinh/your_repo/badges/master/pipeline.svg)](https://gitlab.com/your_account/your_repo/-/commits/master)
+My common code shared between projects.
 
 Quickstart
 ----------
 
+See [examples](./examples).
 
 License
 -------
@@ -19,6 +17,6 @@ Please see [LICENSE](./LICENSE).
 Compatible Bevy Versions
 ------------------------
 
-| bevy | your_plugin                  |
+| bevy | bevy_support_misc            |
 |------|------------------------------|
-| 0.14 | 0.0.1, branch `master`       |
+| 0.14 | 0.0.1-0.1.0, branch `master` |
